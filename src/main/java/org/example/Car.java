@@ -43,6 +43,6 @@ public class Car {
     }
 
     public String distanceCanBeDriven(){
-        return String.format("%.2f", tankFullness / fuelConsumption * 1.0);
+        return String.format("%.2f", (tankFullness / fuelConsumption * 1.0)*100.0);
     }
 }

@@ -29,4 +29,12 @@ class CarTest {
 
         assertEquals(true, true);
     }
+
+    @Test
+    void distanceCanBeDriven() {
+        Car car1 = new Car(2,3,"11.12.2021");
+
+        int distance = 100;
+
+    }
 }
